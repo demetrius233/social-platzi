@@ -1,0 +1,569 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/4eef49e5ad.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/app.css">
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <header>
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand" href="#">
+                    <img src="./img/logo-platzi.png" alt="logo" width="60">
+                    <span>Platzi</span>
+                    <span class="text-success">Collab</span>
+                </a>
+
+                <button class="menu-burger" type="button" >
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </button>
+              
+                <div class="navbar-collapse sidebar" id="">
+
+                  <ul class="navbar-nav mr-auto">
+
+                    <li class="nav-item active">
+                      
+                      <a class="nav-link icono" href="#">
+                        <i class="fas fa-chart-pie d-lg-none"></i>
+                          Categorías
+                      </a>
+                    </li>
+
+                    <li class="nav-item">
+
+                      <a class="nav-link icono" href="#">
+                        <i class="fas fa-american-sign-language-interpreting d-lg-none"></i>  
+                        Colaboradores
+                      </a>
+                    </li>
+                   
+                   
+                    
+                  </ul>
+                  <form class="form-inline my-lg-2 my-lg-0">
+                    <div class="buscador d-none d-lg-flex">
+                        <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+                        <button type="submit"><i class="fab fa-sistrix"></i></button>
+                    </div>
+
+                    <ul class="p-0 d-lg-flex align-items-center">
+                        <li >
+                            <a href="#" class="icono">
+                                <i class="fas fa-envelope"></i>
+                                <span class="d-lg-none">Mensajes</span>    
+                                
+                            </a>
+                        </li>
+
+                        <li class="noti icono">
+                            <a href="#" class="bug">
+                        
+                                <i class="fas fa-bell"></i>
+                                <span class="d-lg-none ">Notificaciones</span>    
+                            
+                                <div class="noti__dropdown">
+                                    <h5>Notificaciones</h5>
+                                     
+                                    <nav>
+                                        <a href="" class="d-flex">
+                                            <span class="d-block p-2"><i class="fas fa-share-alt"></i></span>
+                                            <div class="p-2 px-3">
+                                                <h6 class="m-0">Tienes un nueva proyecto</h6>
+                                                <p class="text-muted m-0">Lorem, ipsum dolor.</p>
+                                                <small class="text-muted">3 min ago</small>
+                                            </div>
+                                        </a>
+        
+                                        <a href="" class="d-flex">
+                                            <span class="d-block p-2"><i class="fas fa-users"></i></span>
+                                            <div class="p-2 px-3">
+                                                <h6 class="m-0">Tienes un nueva solicitud</h6>
+                                                <p class="text-muted m-0">Lorem, ipsum dolor.</p>
+                                                <small class="text-muted">3 min ago</small>
+                                            </div>
+                                        </a>
+
+                                        <a href="" class="d-flex">
+                                            <span class="d-block p-2"><i class="fas fa-users"></i></span>
+                                            <div class="p-2 px-3">
+                                                <h6 class="m-0">Tienes un nueva solicitd</h6>
+                                                <p class="text-muted m-0">Lorem, ipsum dolor.</p>
+                                                <small class="text-muted">3 min ago</small>
+                                            </div>
+                                        </a>
+                                    </nav>
+                                </div>
+                            </a>
+                        </li> 
+
+                        <a href="" class="user">
+                            <img src="./img/jessica.jpg" width="40" alt="imagen de usuario" class="icono rounded-circle">
+                            <span class="d-lg-none icono">Jessica Cox</span>
+                        </a>
+                        
+                    </ul>
+                    
+                    
+
+                    
+
+                    
+                  </form>
+                </div>
+              </nav>
+        </div>
+    </header>
+
+    <section class="hero text-center">
+        <p class="alert alert-dismissible alert-success fade show" role="alert">
+            Hay tres proyectos cerca de tí, descubre en donde haciendo <a href="" class="alert-link">click aquí</a>
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </p>
+       
+    </section>
+
+
+    <main class="container main my-3">
+        <div>
+            <div class="tarjeta">
+                <div class="tarjeta_uno">
+                    <div class="tarjeta_img_usuario text-center">
+                        <img src="./img/jessica.jpg" class="img-fluid rounded-circle w-50" alt="">
+                    </div>
+                    <h5 class="text-center mt-3">Jessica Cox</h5>
+    
+                    <ul>
+                        <li>
+                            <a href="">
+                                <span><i class="fas fa-chart-line"></i></span>
+                                <span>5 proyectos</span>
+                            </a>
+                        </li>
+    
+                        <li>
+                            <a href="">
+                                <span><i class="fas fa-user-plus"></i></span>
+                                <span>5 Seguidores</span>
+                            </a>
+                        </li>
+    
+                        <li>
+                            <a href="">
+                                <span><i class="far fa-handshake"></i></span>
+                                <span>12 Participaciones</span>
+                            </a>
+                        </li>
+                        
+                    </ul>
+
+                    <div class="contactos">
+                        <p> 
+                            <button class="btn btn-primary btn-block" type="button" data-toggle="collapse" data-target="#collapseContactos" aria-expanded="false" aria-controls="collapseContactos">
+                              <i class="fas fa-users mx-2"></i>
+                              Contactos
+                              <i class="fas fa-chevron-down ml-2"></i>
+                            </button>
+                        </p>
+    
+                        <div class="collapse" id="collapseContactos">
+    
+                            <div class="contacto-usuario mb-2">
+                                <img src="./img/persona2.jpg" class="rounded-circle" alt="" width="40">
+                                <span>Robert Hunter</span>
+                            </div>   
+    
+                            <div class="contacto-usuario my-2">
+                                <img src="./img/persona3 (1).jpg" class="rounded-circle" alt="" width="40">
+                                <span>Dave Brown</span>
+                            </div>   
+    
+                            <div class="contacto-usuario my-2">
+                                <img src="./img/jessica.jpg" class="rounded-circle" alt="" width="40">
+                                <span>Daisy Carter</span>
+                            </div>   
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="tarjeta_dos">
+                    
+    
+                    <div class="proyectos-guardados">
+                        <h5>Proyectos guardados <i class="far fa-bookmark"></i></h5>
+                        
+                        <p> 
+                            <a class="" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                                Mis proyectos (6) 
+                                <i class="fas fa-chevron-down"></i>
+                            </a>
+                        </p>
+                        <div class="collapse show" id="collapseExample">
+                            
+                           <ul>
+                               <li><a href="#">En proceso</a></li>
+                               <li><a href="#">Completados</a></li>
+                           </ul>
+    
+                            <h5>Vistos recientemente</h5>
+                            <ul>
+                                <li><a href="#">Dev Store : ecommerce</a></li>
+                                <li><a href="#">App para banco</a></li>
+                                <li><a href="#">Big Data</a></li>
+                                <li><a href="#">Landing Page</a></li>
+                            </ul>
+    
+                        </div>
+                    </div>
+    
+                    <div class="intereses">
+                        <h5>Mis intereses</h5>
+                        <ul>
+    
+                            <li class="alert alert-success">
+                                <a href="#">
+                                    Diseño de interfaz
+                                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </a>
+                            </li>
+    
+                            <li class="alert alert-success">
+                                <a href="#">
+                                    Diseño de experiencia
+                                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </a>
+                            </li>
+    
+                            <li class="alert alert-success">
+                                <a href="#">
+                                    Design Systems
+                                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="p-3">
+            <div class="caja-publicacion px-1">
+                <form class="form-inline"> 
+                    
+                    <a href="">
+                        <img src="./img/jessica.jpg" alt="" width="60" class="rounded-circle">
+                    </a>
+
+                    <div class="caja-textarea">
+                        <textarea name="" placeholder="Publica un proyecto"></textarea>
+                        <a href="#" class="enviar"><i class="fas fa-paper-plane"></i></a>
+                    </div>
+                   
+                  </form>
+
+                  <div class="caja-publicacion__acciones  d-flex justify-content-center flex-wrap">
+                      <a href="#">
+                          <span><i class="fas fa-images"></i></span>
+                          <span>Imagen/Vídeo</span>
+                      </a>
+                      <a href="#">
+                          <span><i class="far fa-file-alt"></i></span>
+                          <span>Documento</span>
+                      </a>
+                      <a href="#">
+                          <span><i class="fas fa-video"></i></span>
+                          <span>Vídeo en vivo</span>
+                      </a>
+                      <a href="#">
+                          <span><i class="fas fa-chart-bar"></i></span>
+                          <span>Encuestas</span>
+                      </a>
+                  </div>
+            </div>
+
+            <div class="ultimo_proyecto my-4">
+                <h5 class="my-4">Continua con tu proyecto</h5>
+
+                <div class="row my-3">
+                    <div class="col-lg-3">
+                        <img src="./img/chase-chappell-HIlhaf9MsN0-unsplash.jpg" class="img-fluid rounded" alt="">
+                    </div>
+
+                    <div class="col-lg-9">
+                        <h5 class="my-3">Dev Store: Ecommerce de productos para programadores</h5>
+                        <p>Compañeros, buen día a todos, recuerden que mañana lunes 23 de agosto tendremos una videollamada
+                            para ponernos de acuerdo de como vamos a resolver el problema
+                        </p>
+                        <a href="#" class="btn btn-primary">Acceder al proyecto</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mensajes">
+                <div class="mensajes__orden">
+                    <h5  class="my-4">Ordenar por: Recientes</h5>
+                </div>
+
+                <div class="mensajes__contenido bg-white border rounded">
+                    <div class="media">
+                        <img src="./img/persona3 (3).jpg" class="mr-3 rounded-circle" width="40" alt="...">
+                        <div class="media-body">
+
+                          <div class="d-flex justify-content-between">
+                            <h5 class="mt-0">Deana Molle</h5>
+                            <span class="alert alert-info text-muted p-1 small">ECOMMERCE</span>
+                          </div>
+
+                          <small class="text-muted">Hace 2 días</small>
+
+                          <div class="mensajes_texto">
+                              <h6>Dev Store: Ecommerce de productos para programadores</h6>
+                              <p>Hola amigos, desde hace unos días empecé un proyecto de una tienda online con 
+                                productos como: camisas, gorras, morrales, tazas etc... El público objetivo son todos los programadores
+                              </p>
+                          </div>
+
+                          <div class="mensajes__participacion border-bottom d-flex pb-2">
+                              <span class="text-muted">Diseñadores: 2</span>
+                              <span class="text-muted">Frontend: 2</span>
+                              <span class="text-muted">Backend: 3</span>
+                          </div>
+
+                          <div class="mensajes__reaccion my-4 d-flex justify-content-around text-center">
+                              <a href="">
+                                  <span><i class="far fa-grin-alt"></i></span>
+                                  <span>Reaccionar</span>
+                              </a>
+                              
+                              <a href="">
+                                <span><i class="far fa-comment-alt"></i></span>
+                                <span>Comentar</span>
+                              </a>
+                            
+
+                              <a href="">
+                                <span><i class="fas fa-share"></i></span>
+                                <span>Solicitar Aprobación</span>
+                              </a>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+
+
+                <div class="mensajes__contenido my-3 bg-white border rounded">
+                    <div class="media">
+                        <img src="./img/persona3 (5).jpg" class="mr-3 rounded-circle" width="40" alt="...">
+                        <div class="media-body">
+
+                          <div class="d-flex justify-content-between">
+                            <h5 class="mt-0">Elsie Miller</h5>
+                            <span class="alert alert-info text-muted p-1 small">ECOMMERCE</span>
+                          </div>
+
+                          <small class="text-muted">Hace 2 días</small>
+
+                          <div class="mensajes_texto">
+                              <h6>Dev Store: Ecommerce de productos para programadores</h6>
+                              <p>Hola amigos, desde hace unos días empecé un proyecto de una tienda online con 
+                                productos como: camisas, gorras, morrales, tazas etc... El público objetivo son todos los programadores
+                              </p>
+                          </div>
+
+                          <div class="mensajes__participacion border-bottom d-flex pb-2">
+                              <span class="text-muted">Diseñadores: 2</span>
+                              <span class="text-muted">Frontend: 2</span>
+                              <span class="text-muted">Backend: 3</span>
+                          </div>
+
+                          <div class="mensajes__imagen">
+                              <img src="./img/chase-chappell-HIlhaf9MsN0-unsplash.jpg" class="img-fluid" alt="">
+                          </div>
+
+                          <div class="mensajes__reaccion my-4 d-flex justify-content-around text-center">
+                              <a href="">
+                                  <span><i class="far fa-grin-alt"></i></span>
+                                  <span>Reaccionar</span>
+                              </a>
+                              
+                              <a href="">
+                                <span><i class="far fa-comment-alt"></i></span>
+                                <span>Comentar</span>
+                              </a>
+                            
+
+                              <a href="">
+                                <span><i class="fas fa-share"></i></span>
+                                <span>Solicitar Aprobación</span>
+                              </a>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+
+
+                <div class="mensajes__contenido bg-white border rounded">
+                    <div class="media">
+                        <img src="./img/persona3 (4).jpg" class="mr-3 rounded-circle" width="40" alt="...">
+                        <div class="media-body">
+
+                          <div class="d-flex justify-content-between">
+                            <h5 class="mt-0">Becka Harper</h5>
+                            <span class="alert alert-info text-muted p-1 small">ECOMMERCE</span>
+                          </div>
+
+                          <small class="text-muted">Hace 2 días</small>
+
+                          <div class="mensajes_texto">
+                              <h6>Dev Store: Ecommerce de productos para programadores</h6>
+                              <p>Hola amigos, desde hace unos días empecé un proyecto de una tienda online con 
+                                productos como: camisas, gorras, morrales, tazas etc... El público objetivo son todos los programadores
+                              </p>
+                          </div>
+
+                          <div class="mensajes__participacion border-bottom d-flex pb-2">
+                              <span class="text-muted">Diseñadores: 2</span>
+                              <span class="text-muted">Frontend: 2</span>
+                              <span class="text-muted">Backend: 3</span>
+                          </div>
+
+                          <div class="mensajes__reaccion my-4 d-flex justify-content-around text-center">
+                              <a href="">
+                                  <span><i class="far fa-grin-alt"></i></span>
+                                  <span>Reaccionar</span>
+                              </a>
+                              
+                              <a href="">
+                                <span><i class="far fa-comment-alt"></i></span>
+                                <span>Comentar</span>
+                              </a>
+                            
+
+                              <a href="">
+                                <span><i class="fas fa-share"></i></span>
+                                <span>Solicitar Aprobación</span>
+                              </a>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+            </div>
+    
+        </div>
+
+        
+        <div class="p-3">
+            
+            <div class="card colaboradores-destacados">
+                
+                <div class="card-body">
+                    <h5 class="text-center border-bottom pb-2">Colaboradores destacados</h5>
+                  
+                    <div class="d-block d-lg-flex  media text-center my-3">
+                        <img src="./img/persona2.jpg" class="mr-3 rounded-circle" alt="" width="40">
+                        <div class="media-body ">
+                          <h5 class="m-0"> Robert Hunter</h5>
+                          <small class="my-2 d-inline-block">Backend Developer</small>
+
+                          <a href="#" class="btn btn-outline-primary btn-sm p-1 d-block">
+                            <i class="fas fa-user-plus"></i>
+                              Conectar
+                          </a>
+                        </div>
+                    </div>
+
+                    <div class="d-block d-lg-flex media text-center my-3">
+                        <img src="./img/persona3 (1).jpg" class="mr-3 rounded-circle" alt="" width="40">
+                        <div class="media-body ">
+                          <h5 class="m-0"> Dave Brown</h5>
+                          <small class="my-2 d-inline-block">UX/UI Designer</small>
+
+                          <a href="#" class="btn btn-outline-primary btn-sm p-1 btn-block">
+                            <i class="fas fa-user-plus"></i>
+                              Conectar
+                          </a>
+                        </div>
+                    </div>
+
+                    <div class="d-block d-lg-flex media text-center  my-3">
+                        <img src="./img/jessica.jpg" class="mr-3 rounded-circle" alt="" width="40">
+                        <div class="media-body text-center">
+                          <h5 class="m-0"> Daisy Carter</h5>
+                          <small class="my-2 d-inline-block">FrontendDeveloper</small>
+
+                          <a href="#" class="btn btn-outline-primary btn-sm p-1 d-block">
+                            <i class="fas fa-user-plus"></i>
+                              Conectar
+                          </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="calendario card my-3">
+                <div class="card-body">
+
+                    <h5 class="text-center border-bottom pb-2">Calendario
+                        <a href=""><i class="fas fa-calendar-alt"></i></a>
+                    </h5>
+                    
+                    <div class="calendario__fecha">
+                        <span class="font-weight-bold">Ubicación:</span>
+                        <span>Online</span>
+                        <p class="m-0">Evento del proyecto: "dev store: Ecommerce de productos
+                            para programadores"
+                        </p>
+                        <small class="text-muted d-inline-block mb-3">20/11/2019 11:30am</small>
+                    </div>
+    
+                    <div class="calendario__fecha">
+                        <span class="font-weight-bold">Ubicación:</span>
+                        <span>Online</span>
+                        <p class="m-0">Evento del proyecto: "dev store: Ecommerce de productos
+                            para programadores"
+                        </p>
+                        <small class="text-muted d-inline-block mb-3">20/04/2020 11:30am</small>
+                    </div>
+    
+                    <div class="calendario__fecha">
+                        <span class="font-weight-bold">Ubicación:</span>
+                        <span>Online</span>
+                        <p class="m-0">Evento del proyecto: "dev store: Ecommerce de productos
+                            para programadores"
+                        </p>
+                        <small class="text-muted d-inline-block mb-3">18/06/2031 11:30am</small>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </main>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="./js/menu-burger.js"></script>
+ </body>
+</html>
